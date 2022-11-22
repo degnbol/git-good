@@ -5,3 +5,5 @@ import numpy as np
 import sys
 import os
 infile = sys.argv[1]
+import pandas as pd
+df = pd.read_table(infile)
